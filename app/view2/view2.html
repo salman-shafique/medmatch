@@ -1,0 +1,20 @@
+<p>This is the partial for view 2.</p>
+<p>
+  Showing of 'interpolate' filter:
+  {{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
+
+<div style="width: 300px;height: 300px;">
+	
+      <canvas 
+        class="chart chart-line"
+        data="data3"
+        labels="graph.labels"
+        series="graph.series"
+        options="graph.options"
+        legend="graph.legend"
+        ng-show="true"
+        >
+      </canvas>  
+</div>
+		
